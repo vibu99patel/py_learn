@@ -24,3 +24,21 @@ for k in range(len(keys)):
     t[keys[k]]=values[k]
 print(t)
 
+print(data['kiran'])
+
+# to add to dictionary
+data['monika'] = 'cs'
+print(data)
+
+del data['harsh']
+print(data)
+
+# list in dictionary and dictionary in dictionary
+prog = {'js':'atom', 'cs':'vs', 
+        'python':['pycharm', 'sublime'], 
+        'java': {'jse':'netbeans', 'jee':'eclipse'}}
+print(prog)
+
+print(prog['js'])
+print(prog['python'][1])
+print(prog['java']['jee'])
